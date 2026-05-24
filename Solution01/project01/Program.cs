@@ -79,10 +79,10 @@ namespace project01
 
             Console.WriteLine($"\nAverage Grade: {averageGrade}");
 
-            // ==============================
+            // ==============================+
             // Count students in IT department
             // Using Count()
-            // ==============================
+            // ==============================+
             var itCount = students.Count(s => s.Department == "IT");
 
             Console.WriteLine($"\nNumber of IT Students: {itCount}");
