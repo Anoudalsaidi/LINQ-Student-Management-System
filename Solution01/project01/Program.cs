@@ -87,10 +87,10 @@ namespace project01
 
             Console.WriteLine($"\nNumber of IT Students: {itCount}");
 
-            // ==============================
+            // =============================
             // Get highest grade
             // Using Max()
-            // ==============================
+            // =============================
             var highestGrade = students.Max(s => s.Grade);
 
             // Get top student
