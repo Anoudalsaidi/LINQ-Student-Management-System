@@ -71,10 +71,10 @@ namespace project01
                 Console.WriteLine($"{student.Name} - {student.Grade}");
             }
 
-            // ==============================
+            // ===========================
             // Calculate average grade
             // Using Average()
-            // ==============================
+            // ===========================
             var averageGrade = students.Average(s => s.Grade);
 
             Console.WriteLine($"\nAverage Grade: {averageGrade}");
